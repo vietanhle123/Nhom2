@@ -11,7 +11,7 @@ namespace Demo.Coffee
     {
         public SqlConnection GetConnection()
         {
-            string connectionString2 = "Data source = localhost; Initial Catalog = ; Integrated Security = SSPI";
+            string connectionString2 = "Data source = localhost; Initial Catalog = coffee; Integrated Security = SSPI";
 
             SqlConnection sqlConnection = new SqlConnection(connectionString2);
 
